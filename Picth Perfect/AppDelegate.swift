@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Picth Perfect
 //
-//  Created by John Daratzikis on 24/10/15.
+//  Created by Ioannis Daratzikis on 24/10/15.
 //  Copyright © 2015 Ioannis Daratzikis. All rights reserved.
 //
 
@@ -40,7 +40,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
+    
+    func applicationDidFinishLaunching(application: UIApplication) {
+        [NSThread.sleepForTimeInterval(10.0)]
+    }
 
 
+    
 }
 
